@@ -20,7 +20,7 @@ This project was made as a school project to try out building a MVC in asp.net C
 [LinkedIn](https://de.linkedin.com/in/alexander-vikenfalk-6b993b42)
 
 #### Screenshots from app ####
-![Screenshot]((http://i.imgur.com/BrT17kI.png))
-![Screenshot]((http://i.imgur.com/qAH9mZC.png))
+![Movie list](http://i.imgur.com/BrT17kI.png)
+![Add new movie](http://i.imgur.com/qAH9mZC.png)
 
 
