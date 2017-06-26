@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAHTy7wmYwmkOy8DGRPjDdegAAAAACAAAAAAAQZgAAAAEAACAAAACQidkftq43A524y0CWSM3mrIcWNd9QqXna5O/+m+qQhgAAAAAOgAAAAAIAACAAAABpVHe2x2WOIIUMTAhIK4ZrW7OrXCuix8TCOL4rVnMcn4AAAAARg14eYVx0hv2Sg/uCR1m6iSn8PtPficgQAvmdC4i9uHE506vETBsUwQCHOt5yuK7l60wq1aF9+en+sFiTKgT2PCBZEELzr3oRM/SWHZFqfGjqrS1xFslBuOu3Hsk7hR8UlwcZ2/u44xp1UJjX54ruDdmxSaw+pa91hhKJ583PzkAAAAC39XMk3Z6Ce7BZQSDcGfvKyU9lT77q4JOUp8G5JjxUqjRFDU3BGWkchUVOQW2FfdtXUtOkZlheudeZ9qQSvjL6</EncryptedPassword>
+    <_NewBackgroundProfile>False</_NewBackgroundProfile>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="MvcMovieContext">
+      <Value>Data Source=tcp:alexanderdbserver.database.windows.net,1433;Initial Catalog=MvcMovie20170626022951_db;User Id=ClarkNova@alexanderdbserver;Password=881225_aw</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="MvcMovie.Models.MvcMovieContext">
+      <Value>Data Source=tcp:alexanderdbserver.database.windows.net,1433;Initial Catalog=MvcMovie20170626022951_db;User Id=ClarkNova@alexanderdbserver;Password=881225_aw</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

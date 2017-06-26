@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "Welcome";
+}
+
+@for (int i = (int)ViewData["From"]; i <= (int)ViewData["To"]; i++)
+{
+
+    @(i.ToString() + "," )
+
+}
+
+
+
